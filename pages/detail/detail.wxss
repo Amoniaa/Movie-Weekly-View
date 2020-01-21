@@ -1,0 +1,11 @@
+.detail-image {
+  width: 300rpx;
+  height: 300rpx;
+  border-radius: 50%;
+}
+.text-con{
+  width:600rpx;
+  font-size: 32rpx;
+  height: 600rpx;
+  overflow: scroll;
+}
