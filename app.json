@@ -2,7 +2,9 @@
   "pages": [
     "pages/weekly/weekly",
     "pages/about/about",
+    "pages/logs/logs",
     "pages/detail/detail"
+
   ],
   "tabBar": {
     "list": [
@@ -20,7 +22,7 @@
       }
     ],
     "color": "#000",
-    "selectedColor": "#00f"
+    "selectedColor": "#232399"
   },
   "window": {
     "navigationBarBackgroundColor": "#fff",

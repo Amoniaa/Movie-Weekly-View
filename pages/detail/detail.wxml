@@ -1,12 +1,10 @@
-<view class='container'>
-  <text style='font-weight:bold; font-size: 50rpx;'>
+<view class='detail-container'>
+  <text style='font-weight: bold; font-size: 20px; text-align: center; line-height: 12px; margin: 20px 0;'>
   {{movie.title}}（{{movie.rating.average}}分）</text>
   <image class='detail-image' src='{{movie.images.small}}'></image>
-  <view>
-    <text>想看：{{movie.wish_count}} |  </text>
-    <text>看过：{{movie.collect_count}}</text>
-  </view>
-  <text>上映日期：{{movie.pubdate}}</text>
+    <text>{{movie.wish_count}}想看 | {{movie.collect_count}}看过</text>
+    <text wx:if='{{movie.pubdate}}'>上映日期：{{movie.pubdate}}</text>
+    <text wx:if='{{!movie.pubdate}}'>上映日期：暂未上映</text>
   <text>年份：{{movie.year}}</text>
-  <text class='text-con'>简介:{{movie.summary}}</text>
+  <text class='text-con'>简介:\n{{movie.summary}}</text>
 </view>

@@ -1,11 +1,23 @@
 .detail-image {
   width: 300rpx;
-  height: 300rpx;
-  border-radius: 50%;
+  height: 400rpx;
+  margin-bottom: 10px;
 }
 .text-con{
-  width:600rpx;
+  border: black solid 1px;
+  padding: 10rpx;
+  margin: 30rpx;
   font-size: 32rpx;
-  height: 600rpx;
-  overflow: scroll;
+  border-radius: 2%;
+
+}
+.detail-container {
+  margin:15px;
+  background-color: #eee;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 3%;
+  box-shadow: 5px 8px 5px #888888;
 }

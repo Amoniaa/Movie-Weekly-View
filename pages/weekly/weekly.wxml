@@ -1,25 +1,16 @@
 <view class=''>
-  
-  <swiper class='movie-swiper' indicator-dots='{{true}}'
-   previous-margin="50rpx" next-margin="50rpx"
-   current="{{currentIndex}}"
-  >
+
+  <swiper class='movie-swiper' indicator-dots='{{true}}' previous-margin="50rpx" next-margin="50rpx" current="{{currentIndex}}">
     <swiper-item class='movie' wx:for="{{weeklyMovieList}}">
-      <view class='container movie-card'
-      bindtap="f1"
-      data-movie-id="{{item.id}}">
+      <view class='container movie-card' bindtap="f1" data-movie-id="{{item.id}}">
+        <text style='font-weight:bold;font-size:20px; padding-top: 30px;'>第{{index+1}}周：{{item.name}}</text>
         <image class='movie-image' src='{{item.imagePath}}'></image>
-        
-        <text style='font-weight:bold;font-size:20px;'>第{{index+1}}周：{{item.name}}</text>
-         <text wx:if='{{item.isHighlyRecommended}}' style='font-size:16px; color:red;'>强烈推荐</text>
-        <text  class='text-con'>点评：{{item.comment}}
-        </text> 
+        <text wx:if='{{item.isHighlyRecommended}}' style='font-size:16px; color:red;'>强烈推荐</text>
+        <text class='text-con'>点评：{{item.comment}}
+        </text>
         <text catchtap='f0' wx:if='{{index < (weeklyMovieList.length - 1)}}' class='return-button'>返回本周</text>
-        <text style='font-size:14px; color:green;'>点击以查看详情</text>
-        <text></text>
+        <text style='font-size:14px; color:green; padding-bottom: 10px;'>点击以查看详情</text>
       </view>
     </swiper-item>
   </swiper>
-  <text style='font-size:16px; color:gray; position: absolute; right: 218rpx; bottom: 40rpx;'>左右滑动以查看更多</text>
-
 </view>

@@ -1,0 +1,24 @@
+<view class='logs-container'>
+  <div class='item'>
+    <text style='font-weight:bold'>版本：1.0.2</text>
+    <text style='font-weight:bold'>时间：2020/3/6</text>
+    <text style='font-weight:bold'>更新内容：</text>
+    <text decode="{{true}}">&ensp;&ensp;&ensp;&ensp;1.为轮播卡片增加了投影，重新设计了卡片内容和布局样式；</text>
+    <text decode="{{true}}">&ensp;&ensp;&ensp;&ensp;2.重新设计了电影详情页的布局和界面，将全屏背景模式改为卡片样式，并增加了投影效果；</text>
+    <text decode="{{true}}">&ensp;&ensp;&ensp;&ensp;3.增加了更新日志页面；</text>
+    <text decode="{{true}}">&ensp;&ensp;&ensp;&ensp;4.重新设计了小程序图标。</text>
+  </div>
+  <div class='item'>
+    <text style='font-weight:bold'>版本：1.0.1</text>
+    <text style='font-weight:bold'>时间：2020/3/5</text>
+    <text style='font-weight:bold'>更新内容：</text>
+    <text decode="{{true}}">&ensp;&ensp;&ensp;&ensp;1.更新了电影内容，增加了5部电影；</text>
+    <text decode="{{true}}">&ensp;&ensp;&ensp;&ensp;2.发布了体验版本。</text>
+  </div>
+  <div class='item'>
+    <text style='font-weight:bold'>版本：1.0.0</text>
+    <text style='font-weight:bold'>时间：2020/1/20</text>
+    <text style='font-weight:bold'>更新内容：</text>
+    <text decode="{{true}}">&ensp;&ensp;&ensp;&ensp;实现了本程序的基础功能：电影轮播，电影详情页和关于页面。</text>
+  </div>
+</view>

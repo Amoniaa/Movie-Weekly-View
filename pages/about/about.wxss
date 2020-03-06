@@ -6,9 +6,17 @@
 }
 
 .nav-default {
-  color: blue
+  color: #232399;
 }
 
 .nav-hover {
+  color: red; 
+}
+
+.logs-default {
+  color: #28880a;
+}
+
+.logs-hover {
   color: red; 
 }

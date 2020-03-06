@@ -1,0 +1,17 @@
+/* pages/about/logs.wxss */
+.logs-container {
+  margin: 10px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.item{
+  background-color: #eee;
+  padding: 10px 10px;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  border-radius: 5%;
+}

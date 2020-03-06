@@ -1,8 +1,9 @@
 <view class='container'>
-  <image class='about-banner' src='/images/simba.jpg'></image>
-  <text style='font-weight: bold; font-size: 60rpx;'>电影看一看</text>
+  <image class='about-banner' src='/images/cover.jpg'></image>
+  <text style='font-weight: bold; font-size: 60rpx;'>Movies</text>
   <view>
     <text>我</text><navigator style='display: inline; ' url='/pages/weekly/weekly' open-type="switchTab" hover-class='nav-hover' class='nav-default'>每周推荐</navigator><text>一部好片</text>
   </view>
-  <text>By:  AstonishedCarrot\nDate:  2020\1\20\nThe first wxapp created</text>
+  <text style="text-align:center;color:gray">By:  AstonishedCarrot\nThe first wxapp created\nDate:  2020/3/6\n版本号：1.0.2</text>
+  <navigator style='display: inline; margin-bottom: 30px;' url='/pages/logs/logs' hover-class='logs-hover' class='logs-default'>更新日志</navigator>
 </view>
