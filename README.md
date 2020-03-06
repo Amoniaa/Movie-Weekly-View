@@ -6,8 +6,8 @@
 
 ![](previewImg\1 (1).jpg)
 
-![1 (2)](D:\文件\2020寒假\微信小程序\电影看一看\previewImg\1 (2).jpg)
+![]previewImg\1 (2).jpg)
 
-![1 (3)](D:\文件\2020寒假\微信小程序\电影看一看\previewImg\1 (3).jpg)
+![]previewImg\1 (3).jpg)
 
-![1 (4)](D:\文件\2020寒假\微信小程序\电影看一看\previewImg\1 (4).jpg)
+![](previewImg\1 (4).jpg)
