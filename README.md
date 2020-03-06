@@ -4,10 +4,10 @@
 
 
 
-![](previewImg\1 (1).jpg)
+![](https://github.com/AstonishedCarrot/Movie-Weekly-View/blob/1.0.2/previewImg/1%20(1).jpg)
 
-![]previewImg\1 (2).jpg)
+![](https://github.com/AstonishedCarrot/Movie-Weekly-View/blob/1.0.2/previewImg/1%20(2).jpg)
 
-![]previewImg\1 (3).jpg)
+![](https://github.com/AstonishedCarrot/Movie-Weekly-View/blob/1.0.2/previewImg/1%20(3).jpg)
 
-![](previewImg\1 (4).jpg)
+![](https://github.com/AstonishedCarrot/Movie-Weekly-View/blob/1.0.2/previewImg/1%20(4).jpg)
