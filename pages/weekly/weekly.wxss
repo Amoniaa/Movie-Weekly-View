@@ -1,3 +1,5 @@
+
+
 .movie {
   display: flex;
 }
@@ -15,7 +17,7 @@
 }
 
 .movie-swiper {
-  height: 95vh; 
+  height: 95vh;
   padding-top: 20px;
 }
 
@@ -25,18 +27,27 @@
   background: #eee;
   margin: 0 20rpx;
   position: relative;
-  border-radius: 3%;
-  box-shadow: 5px 8px 5px #888888;
+  border-radius: 10px;
+  box-shadow: 5px 8px 5px #888;
 }
 
 .return-button {
   padding: 3px 5px;
   position: absolute;
-  background-color: gray;
-  color:white;
   right: 10px;
   top: 10px;
   font-size: 30rpx;
-  border-radius: 15%;
+  border-radius: 10px;
+  background-color: #fff;
+  color: #232399;
+  border: #ccc solid 2px;
 }
 
+.recommand {
+  padding: 5px 7px;
+  font-size: 35rpx;
+  border-radius: 10px;
+  background-color: #fff;
+  color: #f40;
+  border: #bbb solid 2px;
+}

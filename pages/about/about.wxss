@@ -1,8 +1,10 @@
 
 .about-banner {
+  margin-top: 20px;
   width: 375rpx;
   height: 375rpx;
-  border-radius: 50%;
+  border: white solid 5px;
+  border-radius: 10%;
 }
 
 .nav-default {

@@ -1,10 +1,47 @@
 <view class='detail-container'>
   <text style='font-weight: bold; font-size: 20px; text-align: center; line-height: 12px; margin: 20px 0;'>
   {{movie.title}}（{{movie.rating.average}}分）</text>
-  <image class='detail-image' src='{{movie.images.small}}'></image>
-    <text>{{movie.wish_count}}想看 | {{movie.collect_count}}看过</text>
+  <image src='../../images/icons/collect.png' catchtap='handleCollection' wx:if='{{!isCollected}}'style="margin:20px;height:30px; width:30px; position:absolute;top:16px;right:20px;"></image>
+   <image src='../../images/icons/collected.png' catchtap='handleCollection' wx:if='{{isCollected}}'style="margin:20px;height:30px; width:30px; position:absolute;top:16px;right:20px;"></image>
+  <view>
+    <view style="display:inline-block; margin:6px 10px; padding:5px 10px; border-radius: 10px; background-color:#fff; color:#232399;border:#ccc solid 2px;">{{movie.wish_count}} 想看</view>
+    <view style="display:inline-block; margin:6px 10px; padding:5px 10px; border-radius: 10px; background-color:#fff; color:green;border:#ccc solid 2px;"> {{movie.collect_count}} 看过</view>
+  </view>
+  <image class='detail-image' src='{{movie.images.small}}' bindtap='previewImg' data-src='{{movie.images.small}}' style="border-radius:10px; border:white solid 5px;"></image>
+  <view style="margin:10px;">
+    <view wx:for="{{movie.directors}}" wx:key="id">
+      <view>导演：{{item.name}} </view>
+    </view>
+    <view>类型：
+      <view wx:for="{{movie.genres}}" style="display:inline-block; margin: 0 4px 0 0;">{{item}}</view>
+    </view>
     <text wx:if='{{movie.pubdate}}'>上映日期：{{movie.pubdate}}</text>
     <text wx:if='{{!movie.pubdate}}'>上映日期：暂未上映</text>
-  <text>年份：{{movie.year}}</text>
-  <text class='text-con'>简介:\n{{movie.summary}}</text>
+    <text>\n年份：{{movie.year}}\n</text>
+    <text>片长：{{movie.durations}}</text>
+  </view>
+  <view style="margin: 10px 20px 20px 20px; ">标签：
+    <view wx:for="{{movie.tags}}" style="display:inline-block; margin:3px 4px;padding:2px 8px; background-color:#ccc;border-radius: 5px;">{{item}}</view>
+  </view>
+  <text style="font-weight:bold; text-align:center;width:100%;">简介</text>
+  <text class='text-con' decode="{{true}}">&ensp;&ensp;&ensp;&ensp;{{movie.summary}}</text>
+</view>
+<view class='image-card'>
+<text style="font-weight:bold; text-align:center;width:100%;margin-top:10px;">图片精选</text>
+  <view>
+    <swiper indicator-dots='{{true}}' autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" previous-margin="30rpx" next-margin="30rpx" style="height:450rpx;">
+      <swiper-item wx:for="{{movie.photos}}">
+        <image src='{{item.image}}' mode='widthFix' style="padding: 40rpx 20rpx 40rpx 20rpx; width:94%;" bindtap='previewImg' data-src='{{item.image}}' data-imgArr='{{item}}'></image>
+      </swiper-item>
+    </swiper>
+  </view>
+</view>
+<view class='detail-container'>
+  <text style="font-weight:bold; text-align:center;width:100%;margin-top:10px;">影评精选</text>
+  <view class='reviews-container' wx:for="{{movie.popular_reviews}}" wx:key="subject_id">
+    <view style="font-weight:bold; text-align:center"> {{item.title}} </view>
+    <view style="margin:5px;"> <text decode="{{true}}">&ensp;&ensp;&ensp;&ensp;</text>{{item.summary}}
+      <view style="color:gray; text-align:right"> by:{{item.author.name}}</view>
+    </view>
+  </view>
 </view>

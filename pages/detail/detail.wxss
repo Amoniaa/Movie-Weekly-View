@@ -1,23 +1,49 @@
 .detail-image {
   width: 300rpx;
   height: 400rpx;
-  margin-bottom: 10px;
+  margin: 10px;
 }
-.text-con{
-  border: black solid 1px;
+
+.text-con {
   padding: 10rpx;
   margin: 30rpx;
   font-size: 32rpx;
-  border-radius: 2%;
-
+  display: inline-block;
+  border-radius: 10px;
+  background-color: #fff;
+  color: #232399;
+  border: #ccc solid 2px;
 }
+
 .detail-container {
-  margin:15px;
+  font-size: 32rpx;
+  margin: 30rpx;
   background-color: #eee;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  border-radius: 3%;
-  box-shadow: 5px 8px 5px #888888;
+  border-radius: 10px;
+  box-shadow: 5px 8px 5px #888;
+}
+
+.reviews-container {
+  padding: 10rpx;
+  margin: 15rpx 30rpx 15rpx 30rpx;
+  font-size: 32rpx;
+  display: inline-block;
+  border-radius: 10px;
+  background-color: #fff;
+  color: #232399;
+  border: #ccc solid 2px;
+}
+
+.image-card {
+  display: flex;
+  flex-direction: column;
+  font-size: 32rpx;
+  margin: 30rpx;
+  border-radius: 10px;
+  box-shadow: 5px 8px 5px #888;
+  background: #eee;
 }

@@ -4,6 +4,7 @@
   <view>
     <text>我</text><navigator style='display: inline; ' url='/pages/weekly/weekly' open-type="switchTab" hover-class='nav-hover' class='nav-default'>每周推荐</navigator><text>一部好片</text>
   </view>
-  <text style="text-align:center;color:gray">By:  AstonishedCarrot\nThe first wxapp created\nDate:  2020/3/6\n版本号：1.0.2</text>
-  <navigator style='display: inline; margin-bottom: 30px;' url='/pages/logs/logs' hover-class='logs-hover' class='logs-default'>更新日志</navigator>
+  <navigator style='display: inline;  padding:5px 10px; border-radius: 10px; background-color:green; color:#fff;border:green solid 2px;' url='/pages/logs/logs' hover-class='logs-hover' class='logs-default'>更新日志</navigator>
+  <text style="text-align:center;color:gray">By:  AstonishedCarrot\nThe first WeChat Mini Program Created\nDate:  2020/3/7\n版本号：1.0.3</text>
+  
 </view>

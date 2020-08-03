@@ -16,13 +16,6 @@ Page({
         id: 1291561
       }, 
       {
-        name: "龙猫",
-        comment: "乡间居住的温暖故事。",
-        imagePath: "/images/lm.jpg",
-        isHighlyRecommended: true,
-        id: 1291560
-      }, 
-      {
         name: "魔女宅急便",
         comment: "少女的修行往事。",
         imagePath: "/images/mvzjb.jpg",
@@ -50,6 +43,13 @@ Page({
         isHighlyRecommended: true,
         id: 1959877
       }, 
+      {
+        name: "龙猫",
+        comment: "乡间居住的温暖故事。",
+        imagePath: "/images/lm.jpg",
+        isHighlyRecommended: true,
+        id: 1291560
+      }
     ],
     count: 0,
     score: 61

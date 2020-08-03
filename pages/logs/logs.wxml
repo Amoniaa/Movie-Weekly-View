@@ -1,4 +1,13 @@
 <view class='logs-container'>
+<div class='item'>
+    <text style='font-weight:bold'>版本：1.0.3</text>
+    <text style='font-weight:bold'>时间：2020/3/7</text>
+    <text style='font-weight:bold'>更新内容：</text>
+    <text decode="{{true}}">&ensp;&ensp;&ensp;&ensp;1.新增电影图片精选、影评精选、电影标签等内容；</text>
+    <text decode="{{true}}">&ensp;&ensp;&ensp;&ensp;2.重新设计了电影详情页的界面布局，改善了用户体验；</text>
+    <text decode="{{true}}">&ensp;&ensp;&ensp;&ensp;3.增加了个人中心页面；</text>
+    <text decode="{{true}}">&ensp;&ensp;&ensp;&ensp;4.重新设计了小程序UI。</text>
+  </div>
   <div class='item'>
     <text style='font-weight:bold'>版本：1.0.2</text>
     <text style='font-weight:bold'>时间：2020/3/6</text>

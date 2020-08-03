@@ -3,8 +3,8 @@
     "pages/weekly/weekly",
     "pages/about/about",
     "pages/logs/logs",
-    "pages/detail/detail"
-
+    "pages/detail/detail",
+    "pages/me/me"
   ],
   "tabBar": {
     "list": [
@@ -13,6 +13,12 @@
         "pagePath": "pages/weekly/weekly",
         "iconPath": "images/icons/weekly.png",
         "selectedIconPath": "images/icons/weekly-selected.png"
+      },
+      {
+        "text": "我",
+        "pagePath": "pages/me/me",
+        "iconPath": "images/icons/me.png",
+        "selectedIconPath": "images/icons/me-selected.png"
       },
       {
         "text": "关于",

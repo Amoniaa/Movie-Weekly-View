@@ -1,3 +1,6 @@
+page{
+  background-color: #ccc;
+}
 /**app.wxss
 .container {
   height: 100%;
@@ -9,7 +12,7 @@
   box-sizing: border-box;
 } **/
 .container {
-  background-color: #eee;
+  background-color: #ccc;
   height: 100vh;
 
   display: flex;
